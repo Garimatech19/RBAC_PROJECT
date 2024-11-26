@@ -1,0 +1,54 @@
+<%- include('layouts/header') %>
+<h1 class="table">Manage Users</h1>
+
+<table class="table">
+  <thead>
+    <th>ID</th>
+    <th>Email</th>
+    <th>Role</th>
+    <th>Status</th>
+    <th>Actions</th>
+  </thead>
+  <tbody>
+    <% users.forEach(user => { %>
+    <tr>
+      <td><%= user.id %></td>
+      <td><a href="/admin/user/<%= user.id %>"><%= user.email %></a></td>
+      <!-- Update Role -->
+      <td>
+        <form action="/admin/update-role" method="post" class="manage-user-form">
+          <input type="hidden" name="id" value="<%= user.id %>" />
+          <select name="role" id="role">
+            <option value="ADMIN" <%= user.role === 'ADMIN' ? 'selected' : '' %>>Admin</option>
+            <option value="MODERATOR" <%= user.role === 'MODERATOR' ? 'selected' : '' %>>Moderator</option>
+            <option value="CLIENT" <%= user.role === 'CLIENT' ? 'selected' : '' %>>Client</option>
+          </select>
+          <input type="submit" value="Update Role" />
+        </form>
+      </td>
+      <!-- Update Status -->
+      <td>
+        <form action="/admin/update-status" method="post" class="manage-user-form">
+          <input type="hidden" name="id" value="<%= user.id %>" />
+          <select name="status" id="status">
+            <option value="ACTIVE" <%= user.status === 'ACTIVE' ? 'selected' : '' %>>Active</option>
+            <option value="INACTIVE" <%= user.status === 'INACTIVE' ? 'selected' : '' %>>Inactive</option>
+          </select>
+          <input type="submit" value="Update Status" />
+        </form>
+      </td>
+      <!-- Delete User -->
+      <td>
+        <form action="/admin/delete-user" method="post" class="manage-user-form">
+          <input type="hidden" name="id" value="<%= user.id %>" />
+          <button type="submit" class="delete-btn" onclick="return confirm('Are you sure you want to delete this user?');">
+            Delete
+          </button>
+        </form>
+      </td>
+    </tr>
+    <% }) %>
+  </tbody>
+</table>
+
+<%- include('layouts/footer') %>
