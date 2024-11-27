@@ -6,6 +6,8 @@
 ->**Mongoose** is used as an ORM for MongoDB for storing Users in Database.
 ->**Passport JS** is used for local(email, password) authentication.
 
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## To start setting up the project
 
@@ -19,6 +21,8 @@ Step 4: Install MongoDB
 Step 5: Run Mongo daemon
 Step 6: Start the app by:npm start
 
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 # Explanation of each feature-
 1.Express.js
@@ -60,6 +64,8 @@ I used flash messages to display feedback to users, such as success or error not
 13.Handling HTTP Errors (e.g., 404)
 To improve user experience, I added custom error pages for handling HTTP errors, such as 404 for "Page Not Found." This prevents users from seeing generic error messages and helps guide them back to the application.
 
+<!--line-->
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## 📸 Screenshots
 
