@@ -59,3 +59,12 @@ I used flash messages to display feedback to users, such as success or error not
 
 13.Handling HTTP Errors (e.g., 404)
 To improve user experience, I added custom error pages for handling HTTP errors, such as 404 for "Page Not Found." This prevents users from seeing generic error messages and helps guide them back to the application.
+
+
+## 📸 Screenshots
+
+
+<p align="center">
+  <img src="" alt="For User" width="45%" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);" />
+  <img src="https://github.com/user-attachments/assets/185e1708-f2cb-4430-b1af-dc18a8c4fd79" alt="For Admin" width="15%" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);" />
+</p>
