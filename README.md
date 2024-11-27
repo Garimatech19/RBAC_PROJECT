@@ -64,8 +64,7 @@ To improve user experience, I added custom error pages for handling HTTP errors,
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="[Screenshot 2024-11-27 160425](https://github.com/user-attachments/assets/2f28d71a-aab6-46f6-9c2a-0b9530a189e8)" alt="Home" width="45%" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);" />
-  <img src="[Screenshot 2024-11-27 160602](https://github.com/user-attachments/assets/18636ea4-d441-427e-8ae7-d0047a986fef)" alt="Profile" width="15%" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);" />
-<img src="[Screenshot 2024-11-27 160828](https://github.com/user-attachments/assets/b11d3b2c-0ff9-4c06-86f6-b6aa58b27e3f)
-" alt="Manage Users(Only Admin can Manage)" width="45%" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);" />
+  <img src="https://github.com/user-attachments/assets/2f28d71a-aab6-46f6-9c2a-0b9530a189e8" alt="Home" width="45%" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);" />
+  <img src="https://github.com/user-attachments/assets/18636ea4-d441-427e-8ae7-d0047a986fef" alt="Profile" width="15%" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);" />
+<img src="https://github.com/user-attachments/assets/b11d3b2c-0ff9-4c06-86f6-b6aa58b27e3f" alt="Manage Users(Only Admin can Manage)" width="45%" style="border-radius: 10px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);" />
 </p>
